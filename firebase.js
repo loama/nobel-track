@@ -7,12 +7,13 @@ import { getFirestore } from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyADRbKMe3ng14KHhDv10sNtcRx_38Yp8Kk',
-  authDomain: 'feredu-gymtrack.firebaseapp.com',
-  projectId: 'feredu-gymtrack',
-  storageBucket: 'feredu-gymtrack.appspot.com',
-  messagingSenderId: '839948051183',
-  appId: '1:839948051183:web:9d9a678970e102c28ef11a'
+  apiKey: 'AIzaSyD1EM1HRoNgJMzl7pegGgF-FBZTdp3C14s',
+  authDomain: 'nobel-track.firebaseapp.com',
+  projectId: 'nobel-track',
+  storageBucket: 'nobel-track.appspot.com',
+  messagingSenderId: '347213198725',
+  appId: '1:347213198725:web:3386a11eba9f99f41f00ec',
+  measurementId: 'G-2YHCHCXK08'
 }
 
 // Initialize Firebase

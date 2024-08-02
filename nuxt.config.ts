@@ -17,6 +17,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      title: 'Nobel Track',
       link: [
         { rel: 'icon', href: '/icon-192.png', sizes: '192x192', type: 'image/png' },
         { rel: 'apple-touch-icon', href: '/icon-192.png', sizes: '192x192' }
@@ -24,7 +25,8 @@ export default defineNuxtConfig({
       meta: [
         { name: 'mobile-web-app-capable', content: 'yes' },
         { name: 'apple-mobile-web-app-capable', content: 'yes' },
-        { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }
+        { name: 'apple-mobile-web-app-status-bar-style', content: 'transparent' },
+        { name: 'theme-color', content: '#FFF' }
       ]
     }
   },
